@@ -96,7 +96,7 @@ const PortfolioSection = () => {
             >
               {/* 2. Container para o vídeo e a legenda */}
               <div className="bg-card p-2 rounded-xl shadow-lg">
-                <InstagramEmbed url={item.url} width="100%" />
+                <InstagramEmbed url={item.url} width="100%"  />
               </div>
 
               {/* 3. Renderizamos o título e a legenda abaixo do vídeo */}
